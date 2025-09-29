@@ -1,6 +1,6 @@
 # 🍴 Foodie — React + Vite App
 
-Foodie is a modern, responsive React + Vite application that lists restaurants and dynamically displays their menus. Features include search, filtering, dynamic routing with React Router, and reusable components for a clean, user-friendly experience. Built with functional components and React Hooks (useState, useEffect). Fully optimized for mobile, tablet, and desktop.
+A responsive restaurant listing and menu web app that fetches live restaurant data from **Swiggy’s public API**, processes complex nested data, and displays dynamic menus. Users can search and filter restaurants and navigate seamlessly using React Router. Built with functional components, React Hooks, and reusable UI components. Fully optimized for mobile, tablet, and desktop with a clean, modern design.
 
 ---
 
