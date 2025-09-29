@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+#appDiv {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#mainDiv {
+  flex: 1;
+}
+
+#headerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  height: 15vmin;
+}
+
+#logoDiv {
+  width: 20vmin;
+}
+
+#logoImg {
+  width: 100%;
+  border-radius: 2vmin;
+  cursor: pointer;
+}
+
+#navDiv ul {
+  display: flex;
+  padding: 0 10vmin;
+}
+
+#navDiv ul li {
+  padding: 2vmin;
+  font-size: larger;
+  list-style: none;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  font-size: 3vmin;
+}
+
+.Link:hover {
+  color: cadetblue;
+}
+
+#searchBarDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5vmin;
+}
+#searchBarDiv input {
+  width: 90%;
+  padding: 1.5vmin;
+  border-radius: 2vmin;
+  border: 1px solid rgb(212, 212, 212);
+  transition: all ease-in-out 0.3s;
+}
+
+#searchBarDiv input:focus {
+  outline: none;
+  border: 1px solid rgb(110, 178, 220);
+  box-shadow: 0 0 3px 3px rgba(110, 178, 220, 0.5);
+}
+
+#searchBarDiv button {
+  padding: 1vmin;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 2vmin;
+  border: none;
+  background-color: rgba(185, 185, 185, 0.5);
+}
+
+#searchBarDiv button:hover {
+  background-color: rgba(207, 205, 205, 1);
+}
+
+#resturantContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#singleCard {
+  width: 40vmin;
+  min-height: 50vmin;
+  padding: 1vmin;
+  border-radius: 1vmin;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.3s;
+  margin: 2vmin;
+}
+
+#singleCard:hover {
+  transform: scale(1.02);
+}
+
+#singleCard * {
+  cursor: pointer;
+}
+
+#RestoLink {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-wrap: anywhere;
+}
+
+#rest_img {
+  width: 100%;
+}
+
+#filterDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#filter_btn {
+  cursor: pointer;
+  padding: 2vmin;
+  border-radius: 2vmin;
+  border: none;
+  background-color: rgba(179, 179, 179, 0.6);
+  letter-spacing: 1;
+  word-spacing: 1;
+  transition: all ease-in-out 0.2s;
+}
+
+#filter_btn:hover {
+  background-color: rgb(179, 179, 179, 0.9);
+}
+
+.shimmerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shimmerCard {
+  min-width: 40vmin;
+  min-height: 50vmin;
+  border-radius: 1vmin;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.3s;
+  margin: 2vmin;
+}
+
+.restoNameDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuItemDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.singleItemDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40vmin;
+  min-height: 50vmin;
+  word-wrap: normal;
+  overflow-wrap: anywhere;
+  padding: 2vmin;
+  margin: 1vmin;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 2vmin;
+}
+
+#productImg {
+  border-radius: 2vmin;
+  width: 100%;
+}
+
+.footerDiv {
+  height: 10vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 3vmin;
+  color: rgb(44, 44, 44);
+  font-size: 3vmin;
+}
+
+@media screen and (max-width: 1040px) {
+  #singleCard,
+  .shimmerCard,
+  .singleItemDiv {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #singleCard,
+  .shimmerCard,
+  .singleItemDiv {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #singleCard,
+  .shimmerCard,
+  .singleItemDiv {
+    width: 100%;
+  }
+}
