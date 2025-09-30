@@ -78,14 +78,18 @@
 #searchBarDiv button {
   padding: 1vmin;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 2vmin;
   border: none;
-  background-color: rgba(185, 185, 185, 0.5);
+  background-color: rgba(142, 200, 236, 0.8);
+  margin: 0 2vmin;
+  transition: all 0.3s ease;
+  letter-spacing: 0.1vmin;
+  width: 10%;
 }
 
 #searchBarDiv button:hover {
-  background-color: rgba(207, 205, 205, 1);
+  background-color: rgba(142, 200, 236, 1);
 }
 
 #resturantContainer {
@@ -136,14 +140,17 @@
   padding: 2vmin;
   border-radius: 2vmin;
   border: none;
-  background-color: rgba(179, 179, 179, 0.6);
-  letter-spacing: 1;
-  word-spacing: 1;
-  transition: all ease-in-out 0.2s;
+  background-color: rgba(107, 216, 180, 0.9);
+  letter-spacing: 0.1vmin;
+  word-spacing: 0.5vmin;
+  transition: all 0.5s ease;
+  font-weight: 500;
 }
 
 #filter_btn:hover {
-  background-color: rgb(179, 179, 179, 0.9);
+  background-color: rgba(107, 216, 180, 1);
+  transform: scale(1.05);
+
 }
 
 .shimmerContainer {
@@ -274,6 +281,9 @@
   .shimmerCard,
   .singleItemDiv {
     width: 40%;
+  }
+  #searchBarDiv button {
+    width: 20%;
   }
 }
 
