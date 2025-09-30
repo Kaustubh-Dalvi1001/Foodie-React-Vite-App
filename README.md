@@ -21,15 +21,15 @@ A responsive restaurant listing and menu web app that fetches live restaurant da
 ## 🖼️ Screenshots
 
 ### Home Page
-![Home Page](./images/foodie_ss_1.png)
+![Home Page](./images/home_page_ss.png)
 
 ### Restaurant Menu
-![Restaurant Menu](./images/foodie_ss_4.png)
+![Restaurant Menu](./images/resturant_menu_ss.png)
 
 ### Responsive Design
-![Mobile View](./images/foodie_ss_3.png)
-![Tablet View](./images/foodie_ss_2.png)
-![Desktop View](./images/foodie_ss_5.png)
+![Mobile View](./images/mobile_view_ss.png)
+![Tablet View](./images/tablet_view_ss.png)
+![Desktop View](./images/desktop_view_ss.png)
 
 ---
 
