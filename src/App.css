@@ -167,6 +167,57 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 5vmin 0;
+}
+
+#vegBtn {
+  padding: 1.5vmin;
+  margin: 0 2vmin;
+  border-radius: 2vmin;
+  border: none;
+  background-color: rgba(98, 240, 98, 0.8);
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.2vmin;
+  font-size: 2vmin;
+  transition: all 0.5s ease-in-out;
+}
+
+#vegBtn:hover {
+  background-color: rgba(98, 240, 98, 1);
+  transform: scale(1.05);
+}
+
+#searchInp {
+  width: 60vmin;
+  padding: 1.5vmin;
+  font-size: 2vmin;
+  border-radius: 2vmin;
+  border: 1px solid rgb(192, 191, 191);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#searchInp:focus {
+  border-color: rgb(110, 178, 220);
+  box-shadow: 0 0 3px 3px rgba(110, 178, 220, 0.5);
+}
+
+#searchBtn {
+  padding: 1.5vmin;
+  margin: 0 2vmin;
+  border-radius: 2vmin;
+  border: none;
+  background-color: rgba(117, 181, 221, 0.9);
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.2vmin;
+  font-size: 2vmin;
+  transition: all 0.3s ease;
+}
+
+#searchBtn:hover {
+  background-color: rgba(117, 181, 221, 1);
 }
 
 .menuItemDiv {
@@ -188,6 +239,7 @@
   margin: 1vmin;
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   border-radius: 2vmin;
+  transition: all 0.5s ease-in-out;
 }
 
 #productImg {
@@ -211,6 +263,9 @@
   .shimmerCard,
   .singleItemDiv {
     width: 25%;
+  }
+  .restoNameDiv h1 {
+    text-align: center;
   }
 }
 
